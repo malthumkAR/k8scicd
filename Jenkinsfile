@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        registry = "magalixcorp/k8scicd"
+        registry = "vinod9782/tomcat"
         GOCACHE = "/tmp"
     }
     stages {
